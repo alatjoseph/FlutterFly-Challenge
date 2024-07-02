@@ -1,20 +1,10 @@
-# FlutterFly
+# SafeFinder
 
+SafeFinder is a Flask-based platform designed to aid in locating missing children through advanced facial recognition technology. The system matches images of missing children with those in a secure database, providing real-time notifications to authorities and stakeholders.
 
-## Presented By
-- **Boehm Tech**
-- **ADTEC** (Artificial Intelligence, Data Science, and Technology Enthusiast Academy)
-- **Awaaz**
+## Key Features
 
-## About the Program
-
-FlutterFly is a 2-week intensive program designed to enhance your Flutter development skills. Throughout the program, you will participate in engaging challenges and learn how to build impressive mobile applications using Flutter.
-
-
----
-
-### Program Highlights:
-- **Interactive Challenges**: Hands-on tasks to strengthen your Flutter skills.
-- **Build Your Masterpiece**: Create your own mobile application by the end of the program.
-- **Expert Guidance**: Learn from seasoned professionals and mentors.
-
+- *Flask Framework:* SafeFinder is built on the Flask framework, enabling seamless web application development and scalability.
+- *SQLite Database:* Securely stores and retrieves data using SQLite, ensuring the confidentiality and integrity of information.
+- *Facial Recognition:* Employs cutting-edge facial recognition algorithms to accurately match images of missing children with database entries.
+- *Real-Time Alerts:* Provides immediate notifications to authorities and stakeholders upon potential matches, facilitating swift action and intervention
