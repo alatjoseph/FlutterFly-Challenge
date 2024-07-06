@@ -122,12 +122,12 @@ class _LoginpageState extends State<Loginpage> {
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                
-                 Container(
-                  height: 30,
-                  width: 30,
-                  child: const Image(image:NetworkImage('https://logopng.com.br/logos/google-37.png'))),
-                
+                    Container(
+                        height: 30,
+                        width: 30,
+                        child: const Image(
+                            image: NetworkImage(
+                                'https://logopng.com.br/logos/google-37.png'))),
                     ElevatedButton(
                       style: ElevatedButton.styleFrom(
                         backgroundColor: Colors.black,
