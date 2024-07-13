@@ -19,7 +19,7 @@ Future<void> inserdata(Loginmodel value) async {
       [value.email, value.password]);
 }
 
-Future display() async {
+Future getdata() async {
   final result = await db.rawQuery('SELECT * FROM logindb');
   return result;
 }

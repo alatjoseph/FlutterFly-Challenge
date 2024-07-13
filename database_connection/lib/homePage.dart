@@ -38,21 +38,24 @@ class _HomepageState extends State<Homepage> {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   ElevatedButton(
-                      style: ElevatedButton.styleFrom(
-                          backgroundColor: Colors.purple),
-                      onPressed: () {
-                        cleardata();
-                        setState(() {
+                    style: ElevatedButton.styleFrom(
+                        backgroundColor: Colors.purple),
+                    onPressed: () {
+                      cleardata();
+                      setState(
+                        () {
                           _loginData = [];
-                        });
-                      },
-                      child: const Text(
-                        'Clear Table',
-                        style: TextStyle(
-                            color: Colors.white,
-                            fontWeight: FontWeight.bold,
-                            fontSize: 15),
-                      )),
+                        },
+                      );
+                    },
+                    child: const Text(
+                      'Clear Table',
+                      style: TextStyle(
+                          color: Colors.white,
+                          fontWeight: FontWeight.bold,
+                          fontSize: 15),
+                    ),
+                  ),
                   ElevatedButton(
                     style: ElevatedButton.styleFrom(
                         backgroundColor: Colors.purple),

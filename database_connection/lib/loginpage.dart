@@ -65,8 +65,11 @@ class Loginpage extends StatelessWidget {
               Container(
                 width: MediaQuery.of(context).size.width / 1.4,
                 decoration: const BoxDecoration(
-                    color: Colors.green,
-                    borderRadius: BorderRadius.all(Radius.circular(20))),
+                  color: Colors.green,
+                  borderRadius: BorderRadius.all(
+                    Radius.circular(20),
+                  ),
+                ),
                 child: ElevatedButton(
                     style: ElevatedButton.styleFrom(
                         backgroundColor: Colors.green, elevation: 0),
@@ -110,7 +113,7 @@ class Loginpage extends StatelessWidget {
   }
 
   void navigateToHomePage(BuildContext context) async {
-    final data = await display();
+    final data = await getdata();
     Navigator.push(
       // ignore: use_build_context_synchronously
       context,
