@@ -1,19 +1,15 @@
 import 'package:flutter/material.dart';
 
 class HomeTitleCard extends StatelessWidget {
-   final String  title;
-  
+  final String title;
+
   final String subtitle;
 
-  const HomeTitleCard({
-    super.key,
-    required this.title,
-    required this.subtitle
-  });
+  const HomeTitleCard({super.key, required this.title, required this.subtitle});
 
   @override
   Widget build(BuildContext context) {
-    return  Row(
+    return Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
         Column(

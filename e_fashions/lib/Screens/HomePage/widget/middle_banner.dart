@@ -27,9 +27,7 @@ class HomeMiddleBanner extends StatelessWidget {
                       Container(
                         height: 163,
                         color: whitteclr,
-                        width:
-                            MediaQuery.of(context).size.width / 2 -
-                                8,
+                        width: MediaQuery.of(context).size.width / 2 - 8,
                         child: const Center(
                             child: Text(
                           'Summer\nSale',
@@ -42,10 +40,7 @@ class HomeMiddleBanner extends StatelessWidget {
                       Stack(
                         children: [
                           SizedBox(
-                            width:
-                                MediaQuery.of(context).size.width /
-                                        2 -
-                                    8,
+                            width: MediaQuery.of(context).size.width / 2 - 8,
                             child: const Image(
                               image: NetworkImage(
                                   'https://jooinn.com/images/model-photoshoot-15.jpg'),
@@ -70,9 +65,7 @@ class HomeMiddleBanner extends StatelessWidget {
                   Stack(
                     children: [
                       SizedBox(
-                        width:
-                            MediaQuery.of(context).size.width / 2 -
-                                8,
+                        width: MediaQuery.of(context).size.width / 2 - 8,
                         height: 445.5,
                         child: const Image(
                           image: NetworkImage(
@@ -81,16 +74,16 @@ class HomeMiddleBanner extends StatelessWidget {
                         ),
                       ),
                       const Positioned(
-                        
                         bottom: 110,
                         left: 50,
                         child: Text(
-                              'Men\'s\nHoodies',
-                              style: TextStyle(
-                                  color: whitteclr,
-                                  fontSize: 35,
-                                  fontWeight: FontWeight.bold),
-                            ),)
+                          'Men\'s\nHoodies',
+                          style: TextStyle(
+                              color: whitteclr,
+                              fontSize: 35,
+                              fontWeight: FontWeight.bold),
+                        ),
+                      )
                     ],
                   )
                 ],

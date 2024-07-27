@@ -8,18 +8,28 @@ class Tabbar extends StatelessWidget {
   Widget build(BuildContext context) {
     return const TabBar(
       indicatorColor: redclr,
-    tabs: [
-      Tab(
-        child: Text('Womens',style: TextStyle(color: Colors.black,fontSize: 20,fontWeight: FontWeight.bold),),
-      ),
-      Tab(
-        child: Text('Mens',style: TextStyle(color: Colors.black,fontSize: 20,fontWeight: FontWeight.bold),)
-      ),
-      Tab(
-        child: Text('Kids',style: TextStyle(color: Colors.black,fontSize: 20,fontWeight: FontWeight.bold)),
-      ),
-    ],
-    
+      tabs: [
+        Tab(
+          child: Text(
+            'Womens',
+            style: TextStyle(
+                color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),
+          ),
+        ),
+        Tab(
+            child: Text(
+          'Mens',
+          style: TextStyle(
+              color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),
+        )),
+        Tab(
+          child: Text('Kids',
+              style: TextStyle(
+                  color: Colors.black,
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold)),
+        ),
+      ],
     );
   }
 }

@@ -25,22 +25,21 @@ class BottomSheetContent extends StatelessWidget {
                   'Your Promo Codes',
                   style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
                 ),
-
-               
                 PromocodeListBottomSheet()
               ],
             ),
           ),
         ),
         Positioned(
-            top: 10,
-            left: MediaQuery.of(context).size.width / 2.5,
-            child: Container(
-              height: 5,
-              width: MediaQuery.of(context).size.width / 5,
-              decoration: BoxDecoration(
-                  color: Colors.grey, borderRadius: BorderRadius.circular(20)),
-            ))
+          top: 10,
+          left: MediaQuery.of(context).size.width / 2.5,
+          child: Container(
+            height: 5,
+            width: MediaQuery.of(context).size.width / 5,
+            decoration: BoxDecoration(
+                color: Colors.grey, borderRadius: BorderRadius.circular(20)),
+          ),
+        )
       ],
     );
   }

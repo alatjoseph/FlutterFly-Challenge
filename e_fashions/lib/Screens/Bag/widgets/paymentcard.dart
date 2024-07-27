@@ -15,8 +15,7 @@ class PaymentCard extends StatelessWidget {
           children: [
             const Text(
               'Payment',
-              style:
-                  TextStyle(fontWeight: FontWeight.bold, fontSize: 17),
+              style: TextStyle(fontWeight: FontWeight.bold, fontSize: 17),
             ),
             TextButton(
                 onPressed: () {},
@@ -26,19 +25,24 @@ class PaymentCard extends StatelessWidget {
                 ))
           ],
         ),
-         Row(
-          
+        Row(
           children: [
             Card(
               child: Padding(
                 padding: const EdgeInsets.all(2.0),
                 child: SizedBox(
-                  width: MediaQuery.of(context).size.width/4.3,
-                  child: const Image(image: NetworkImage('https://logos-world.net/wp-content/uploads/2020/09/Mastercard-Logo-2016-2020.png'),)),
+                    width: MediaQuery.of(context).size.width / 4.3,
+                    child: const Image(
+                      image: NetworkImage(
+                          'https://logos-world.net/wp-content/uploads/2020/09/Mastercard-Logo-2016-2020.png'),
+                    )),
               ),
             ),
             kwidtth20,
-            const Text('**** **** **** 1234',style: TextStyle(fontWeight: FontWeight.bold),)
+            const Text(
+              '**** **** **** 1234',
+              style: TextStyle(fontWeight: FontWeight.bold),
+            )
           ],
         )
       ],

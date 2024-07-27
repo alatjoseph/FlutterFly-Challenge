@@ -59,27 +59,65 @@ class CheckoutPage extends StatelessWidget {
                 const Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    Text('Order :',style: TextStyle(fontSize: 17,fontWeight: FontWeight.bold,color: Colors.grey),),
-                    Text('112\$',style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold,color: Colors.black),)
+                    Text(
+                      'Order :',
+                      style: TextStyle(
+                          fontSize: 17,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.grey),
+                    ),
+                    Text(
+                      '112\$',
+                      style: TextStyle(
+                          fontSize: 20,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.black),
+                    )
                   ],
                 ),
                 const Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    Text('Delivery :',style: TextStyle(fontSize: 17,fontWeight: FontWeight.bold,color: Colors.grey),),
-                    Text('15\$',style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold,color: Colors.black),)
+                    Text(
+                      'Delivery :',
+                      style: TextStyle(
+                          fontSize: 17,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.grey),
+                    ),
+                    Text(
+                      '15\$',
+                      style: TextStyle(
+                          fontSize: 20,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.black),
+                    )
                   ],
                 ),
                 kheight10,
                 const Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    Text('Summary :',style: TextStyle(fontSize: 19,fontWeight: FontWeight.bold,color: Colors.grey),),
-                    Text('127\$',style: TextStyle(fontSize: 21,fontWeight: FontWeight.bold,color: Colors.black),)
+                    Text(
+                      'Summary :',
+                      style: TextStyle(
+                          fontSize: 19,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.grey),
+                    ),
+                    Text(
+                      '127\$',
+                      style: TextStyle(
+                          fontSize: 21,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.black),
+                    )
                   ],
                 ),
                 kheight20,
-                ButtonWidget(content: 'SUBMIT ORDER', destinationpage: const SuccessScreen())
+                ButtonWidget(
+                    content: 'SUBMIT ORDER',
+                    destinationpage: const SuccessScreen())
               ],
             )
           ],

@@ -7,19 +7,20 @@ class ProfileCard extends StatelessWidget {
   String heading;
   String subheading;
   Widget navigationpage;
-   ProfileCard({
-    super.key,
-    required this.heading,
-    required this.subheading,
-    this.navigationpage=const ProfilePage()
-  });
+  ProfileCard(
+      {super.key,
+      required this.heading,
+      required this.subheading,
+      this.navigationpage = const ProfilePage()});
 
   @override
   Widget build(BuildContext context) {
-    return  GestureDetector(
+    return GestureDetector(
       onTap: () {
-       Navigator.of(context).push(MaterialPageRoute(builder: (context) =>  navigationpage,));
-      } ,
+        Navigator.of(context).push(MaterialPageRoute(
+          builder: (context) => navigationpage,
+        ));
+      },
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
@@ -37,8 +38,10 @@ class ProfileCard extends StatelessWidget {
               ),
             ],
           ),
-          const Icon(CupertinoIcons.right_chevron,
-          size: 20,)
+          const Icon(
+            CupertinoIcons.right_chevron,
+            size: 20,
+          )
         ],
       ),
     );

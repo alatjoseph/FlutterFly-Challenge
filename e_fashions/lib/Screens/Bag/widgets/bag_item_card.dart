@@ -8,7 +8,7 @@ class BagItemCard extends StatelessWidget {
   String color;
   String size;
   String price;
-   BagItemCard({
+  BagItemCard({
     super.key,
     required this.dressname,
     required this.image,
@@ -24,32 +24,29 @@ class BagItemCard extends StatelessWidget {
       child: Container(
         height: 110,
         width: double.infinity,
-        decoration:
-            BoxDecoration(borderRadius: BorderRadius.circular(10)),
+        decoration: BoxDecoration(borderRadius: BorderRadius.circular(10)),
         child: Row(
           children: [
             Container(
-              width: MediaQuery.of(context).size.width /5,
+              width: MediaQuery.of(context).size.width / 5,
               color: whitteclr,
-              child:  Image(
-                image: NetworkImage(
-                    image),
+              child: Image(
+                image: NetworkImage(image),
                 fit: BoxFit.cover,
               ),
             ),
-             Row(
+            Row(
               children: [
                 Padding(
-                  padding: const EdgeInsets.symmetric(
-                      horizontal: 15, vertical: 4),
+                  padding:
+                      const EdgeInsets.symmetric(horizontal: 15, vertical: 4),
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
                         dressname,
                         style: const TextStyle(
-                            fontWeight: FontWeight.bold,
-                            fontSize: 20),
+                            fontWeight: FontWeight.bold, fontSize: 20),
                       ),
                       Row(
                         children: [
@@ -63,8 +60,7 @@ class BagItemCard extends StatelessWidget {
                           Text(
                             color,
                             style: const TextStyle(
-                                fontWeight: FontWeight.bold,
-                                fontSize: 15),
+                                fontWeight: FontWeight.bold, fontSize: 15),
                           ),
                           kwidtth20,
                           const Text(
@@ -77,8 +73,7 @@ class BagItemCard extends StatelessWidget {
                           Text(
                             size,
                             style: const TextStyle(
-                                fontWeight: FontWeight.bold,
-                                fontSize: 15),
+                                fontWeight: FontWeight.bold, fontSize: 15),
                           ),
                         ],
                       ),
@@ -92,8 +87,7 @@ class BagItemCard extends StatelessWidget {
                           Text(
                             '1',
                             style: TextStyle(
-                                fontSize: 20,
-                                fontWeight: FontWeight.bold),
+                                fontSize: 20, fontWeight: FontWeight.bold),
                           ),
                           kwidth10,
                           CircleAvatar(
@@ -108,7 +102,16 @@ class BagItemCard extends StatelessWidget {
                 kwidtth20,
                 Column(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  children: [const Icon(Icons.more_vert), Text(price,style: const TextStyle(color: Colors.black,fontWeight: FontWeight.bold,fontSize: 16),)],
+                  children: [
+                    const Icon(Icons.more_vert),
+                    Text(
+                      price,
+                      style: const TextStyle(
+                          color: Colors.black,
+                          fontWeight: FontWeight.bold,
+                          fontSize: 16),
+                    )
+                  ],
                 )
               ],
             ),

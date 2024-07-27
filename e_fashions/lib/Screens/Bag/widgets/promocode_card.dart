@@ -65,7 +65,9 @@ class PromoCodeCard extends StatelessWidget {
                 ElevatedButton(
                     style: ElevatedButton.styleFrom(backgroundColor: redclr),
                     onPressed: () {
-                     Navigator.of(context).pop(context,);
+                      Navigator.of(context).pop(
+                        context,
+                      );
                     },
                     child: const Text(
                       'Apply',

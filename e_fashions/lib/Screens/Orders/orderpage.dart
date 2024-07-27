@@ -18,7 +18,6 @@ class Orderpage extends StatelessWidget {
                 Icons.search,
               )
             ],
-            // leading: const Icon(Icons.chevron_left_sharp,size: 35,),
             bottom: const PreferredSize(
               preferredSize: Size(80, 90),
               child: Padding(

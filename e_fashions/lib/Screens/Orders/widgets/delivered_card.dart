@@ -25,8 +25,8 @@ class DeliveredCard extends StatelessWidget {
                   children: [
                     Text(
                       'Order No : 1927345',
-                      style: TextStyle(
-                          fontWeight: FontWeight.bold, fontSize: 17),
+                      style:
+                          TextStyle(fontWeight: FontWeight.bold, fontSize: 17),
                     ),
                     Text(
                       '19-07-2024',
@@ -86,8 +86,8 @@ class DeliveredCard extends StatelessWidget {
                   children: [
                     ElevatedButton(
                       style: ElevatedButton.styleFrom(
-                          side: const BorderSide(
-                              color: Colors.black, width: 2)),
+                          side:
+                              const BorderSide(color: Colors.black, width: 2)),
                       onPressed: () {},
                       child: const Text(
                         'Details',
@@ -97,10 +97,13 @@ class DeliveredCard extends StatelessWidget {
                             color: Colors.black),
                       ),
                     ),
-                    const Text('Delivered',style: TextStyle(
-                            fontWeight: FontWeight.bold,
-                            fontSize: 17,
-                            color: Colors.green),)
+                    const Text(
+                      'Delivered',
+                      style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontSize: 17,
+                          color: Colors.green),
+                    )
                   ],
                 )
               ],

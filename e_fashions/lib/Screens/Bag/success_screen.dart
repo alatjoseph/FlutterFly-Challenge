@@ -32,7 +32,7 @@ class SuccessScreen extends StatelessWidget {
                       style: TextStyle(fontSize: 20))),
               ButtonWidget(
                 content: 'CONTINUE SHOPPING',
-                destinationpage:  const MainScreen(),
+                destinationpage: const MainScreen(),
               )
             ],
           ),

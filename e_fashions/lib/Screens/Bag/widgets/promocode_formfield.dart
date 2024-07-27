@@ -32,7 +32,7 @@ class PromoCodeFormField extends StatelessWidget {
                         borderRadius:
                             BorderRadius.vertical(top: Radius.circular(20)),
                       ),
-                       isScrollControlled: true,
+                      isScrollControlled: true,
                       context: context,
                       builder: (BuildContext context) {
                         return const BottomSheetContent();

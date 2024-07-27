@@ -1,13 +1,9 @@
 import 'package:flutter/material.dart';
 
 class CatagoryCard extends StatelessWidget {
-  final String  category;
+  final String category;
   final String image;
-  const CatagoryCard({
-    super.key,
-    required this.category,
-    required this.image
-  });
+  const CatagoryCard({super.key, required this.category, required this.image});
 
   @override
   Widget build(BuildContext context) {
@@ -18,11 +14,10 @@ class CatagoryCard extends StatelessWidget {
         width: double.infinity,
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(10),
-         
         ),
-        child:  Row(
+        child: Row(
           children: [
-             Expanded(
+            Expanded(
               child: Text(
                 category,
                 textAlign: TextAlign.center,
@@ -32,7 +27,11 @@ class CatagoryCard extends StatelessWidget {
                     fontSize: 25),
               ),
             ),
-            Expanded(child: Image(image: NetworkImage(image),fit: BoxFit.cover,))
+            Expanded(
+                child: Image(
+              image: NetworkImage(image),
+              fit: BoxFit.cover,
+            ))
           ],
         ),
       ),

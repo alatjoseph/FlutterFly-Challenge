@@ -24,13 +24,13 @@ class ForgotpasswordPage extends StatelessWidget {
                 ));
               },
               child: const Text(
-                "Login", 
+                "Login",
                 style: TextStyle(
                     color: whitteclr,
                     fontWeight: FontWeight.bold,
                     fontSize: 15),
               )),
-              kwidth10
+          kwidth10
         ],
       ),
       body: SafeArea(
@@ -71,8 +71,8 @@ class ForgotpasswordPage extends StatelessWidget {
                   ),
                   kheight20,
                   const Spacer(),
-                  ButtonWidget(content: 'Sent OTP', destinationpage: const OTPPage()),
-                  // const Text('Need Help?',style: TextStyle(color: Colors.blue),),
+                  ButtonWidget(
+                      content: 'Sent OTP', destinationpage: const OTPPage()),
                   kheight20,
                   kheight20
                 ],

@@ -48,17 +48,31 @@ class MensTab extends StatelessWidget {
             ],
           ),
           kheight5,
-          const CatagoryCard(category:"New",image: 'https://i.pinimg.com/originals/5f/58/f0/5f58f03b886de83ae62c0116772aa50c.jpg',),
+          const CatagoryCard(
+            category: "New",
+            image:
+                'https://i.pinimg.com/originals/5f/58/f0/5f58f03b886de83ae62c0116772aa50c.jpg',
+          ),
           kheight5,
-          const CatagoryCard(category: 'Clothes',image: 'https://guidetoiceland.is/image/432039/x/0/icelandic-clothing-amp-fashion-brands-6.jpg',),
+          const CatagoryCard(
+            category: 'Clothes',
+            image:
+                'https://guidetoiceland.is/image/432039/x/0/icelandic-clothing-amp-fashion-brands-6.jpg',
+          ),
           kheight5,
-          const CatagoryCard(category: 'Shoes',image: 'https://cdn11.bigcommerce.com/s-s62r70/images/stencil/1920w/uploaded_images/danner-quarry-work-boot-american-made-best-andscaping-boots-best-landscape-construction-boots.jpg?t=1561043379',),
+          const CatagoryCard(
+            category: 'Shoes',
+            image:
+                'https://cdn11.bigcommerce.com/s-s62r70/images/stencil/1920w/uploaded_images/danner-quarry-work-boot-american-made-best-andscaping-boots-best-landscape-construction-boots.jpg?t=1561043379',
+          ),
           kheight5,
-          const CatagoryCard(category: 'Accesories',image: 'https://i.pinimg.com/originals/4f/43/7f/4f437f51f1708cf092614c7d3112f9e2.jpg',),
-    
+          const CatagoryCard(
+            category: 'Accesories',
+            image:
+                'https://i.pinimg.com/originals/4f/43/7f/4f437f51f1708cf092614c7d3112f9e2.jpg',
+          ),
         ],
       ),
     );
   }
 }
-

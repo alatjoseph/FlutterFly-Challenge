@@ -38,8 +38,8 @@ class HomeIdleBanner extends StatelessWidget {
                 SizedBox(
                   width: MediaQuery.of(context).size.width / 2.5,
                   child: ElevatedButton(
-                    style: ElevatedButton.styleFrom(
-                        backgroundColor: Colors.red),
+                    style:
+                        ElevatedButton.styleFrom(backgroundColor: Colors.red),
                     onPressed: () {},
                     child: const Text(
                       'Check',
@@ -58,4 +58,3 @@ class HomeIdleBanner extends StatelessWidget {
     );
   }
 }
-

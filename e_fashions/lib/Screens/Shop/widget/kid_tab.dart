@@ -48,17 +48,31 @@ class KidsTab extends StatelessWidget {
             ],
           ),
           kheight5,
-          const CatagoryCard(category:"New",image: 'https://i.etsystatic.com/13416637/r/il/0b748b/2977674531/il_1588xN.2977674531_i3kq.jpg',),
+          const CatagoryCard(
+            category: "New",
+            image:
+                'https://i.etsystatic.com/13416637/r/il/0b748b/2977674531/il_1588xN.2977674531_i3kq.jpg',
+          ),
           kheight5,
-          const CatagoryCard(category: 'Clothes',image: 'https://i5.walmartimages.com/asr/a9c0b27f-a3f5-4bd7-9d3a-115e8d1b9790.68a5c05cca433194888d07f6fdcea96d.jpeg',),
+          const CatagoryCard(
+            category: 'Clothes',
+            image:
+                'https://i5.walmartimages.com/asr/a9c0b27f-a3f5-4bd7-9d3a-115e8d1b9790.68a5c05cca433194888d07f6fdcea96d.jpeg',
+          ),
           kheight5,
-          const CatagoryCard(category: 'Shoes',image: 'https://mostexpensivearchive.com/wp-content/uploads/2022/04/rakesh-sitnoor-24UV2VJnwT8-unsplash.jpg',),
+          const CatagoryCard(
+            category: 'Shoes',
+            image:
+                'https://mostexpensivearchive.com/wp-content/uploads/2022/04/rakesh-sitnoor-24UV2VJnwT8-unsplash.jpg',
+          ),
           kheight5,
-          const CatagoryCard(category: 'Accesories',image: 'https://static.honeykidsasia.com/wp-content/uploads/2017/10/kids-accessories-hero-2.png',),
-    
+          const CatagoryCard(
+            category: 'Accesories',
+            image:
+                'https://static.honeykidsasia.com/wp-content/uploads/2017/10/kids-accessories-hero-2.png',
+          ),
         ],
       ),
     );
   }
 }
-

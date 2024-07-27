@@ -1,4 +1,3 @@
-
 import 'package:e_fashions/constants/const.dart';
 import 'package:flutter/material.dart';
 
@@ -26,8 +25,8 @@ class Cancelledcard extends StatelessWidget {
                   children: [
                     Text(
                       'Order No : 1927345',
-                      style: TextStyle(
-                          fontWeight: FontWeight.bold, fontSize: 17),
+                      style:
+                          TextStyle(fontWeight: FontWeight.bold, fontSize: 17),
                     ),
                     Text(
                       '19-07-2024',
@@ -87,8 +86,8 @@ class Cancelledcard extends StatelessWidget {
                   children: [
                     ElevatedButton(
                       style: ElevatedButton.styleFrom(
-                          side: const BorderSide(
-                              color: Colors.black, width: 2)),
+                          side:
+                              const BorderSide(color: Colors.black, width: 2)),
                       onPressed: () {},
                       child: const Text(
                         'Details',
@@ -98,10 +97,13 @@ class Cancelledcard extends StatelessWidget {
                             color: Colors.black),
                       ),
                     ),
-                    const Text('Cancelled',style: TextStyle(
-                            fontWeight: FontWeight.bold,
-                            fontSize: 17,
-                            color: Colors.red),)
+                    const Text(
+                      'Cancelled',
+                      style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontSize: 17,
+                          color: Colors.red),
+                    )
                   ],
                 )
               ],

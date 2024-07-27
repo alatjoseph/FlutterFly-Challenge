@@ -43,7 +43,9 @@ class LoginPage extends StatelessWidget {
               kheight10,
               GestureDetector(
                 onTap: () {
-                  Navigator.of(context).push(MaterialPageRoute(builder: (context) => const ForgotpasswordPage(),));
+                  Navigator.of(context).push(MaterialPageRoute(
+                    builder: (context) => const ForgotpasswordPage(),
+                  ));
                 },
                 child: const Row(
                   mainAxisAlignment: MainAxisAlignment.end,
@@ -65,9 +67,12 @@ class LoginPage extends StatelessWidget {
                     height: 45,
                     width: double.infinity,
                     child: ElevatedButton(
-                        style: ElevatedButton.styleFrom(backgroundColor: Colors.red),
+                        style: ElevatedButton.styleFrom(
+                            backgroundColor: Colors.red),
                         onPressed: () {
-                          Navigator.of(context).push(MaterialPageRoute(builder: (context) => const MainScreen(),));
+                          Navigator.of(context).push(MaterialPageRoute(
+                            builder: (context) => const MainScreen(),
+                          ));
                         },
                         child: const Text(
                           'LOGIN',

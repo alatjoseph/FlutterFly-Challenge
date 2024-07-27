@@ -14,8 +14,7 @@ class HomeCard extends StatefulWidget {
       required this.dressName,
       required this.dressType,
       required this.offertext,
-      required this.color
-      });
+      required this.color});
 
   @override
   State<HomeCard> createState() => _HomeCardState();
@@ -52,10 +51,11 @@ class _HomeCardState extends State<HomeCard> {
                     width: 35,
                     child: FittedBox(
                       child: ElevatedButton(
-                        style: ElevatedButton.styleFrom(backgroundColor: widget.color),
+                        style: ElevatedButton.styleFrom(
+                            backgroundColor: widget.color),
                         onPressed: () {},
-                        child:  Text(
-                          widget.offertext ,
+                        child: Text(
+                          widget.offertext,
                           textAlign: TextAlign.center,
                           style: const TextStyle(
                               color: whitteclr,
@@ -99,7 +99,8 @@ class _HomeCardState extends State<HomeCard> {
               fit: BoxFit.scaleDown,
               child: Text(
                 widget.dressType,
-                style: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                style:
+                    const TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
               ),
             ),
             const Row(
@@ -109,17 +110,15 @@ class _HomeCardState extends State<HomeCard> {
                 Text(
                   '\$20',
                   style: TextStyle(
-                    decoration: TextDecoration.lineThrough,
-                    decorationStyle:TextDecorationStyle.solid,
-                    fontSize: 13),
+                      decoration: TextDecoration.lineThrough,
+                      decorationStyle: TextDecorationStyle.solid,
+                      fontSize: 13),
                 ),
                 kwidth10,
                 Text(
                   '\$10',
                   style: TextStyle(
-                    color: redclr,
-                    fontWeight: FontWeight.bold,
-                    fontSize: 13),
+                      color: redclr, fontWeight: FontWeight.bold, fontSize: 13),
                 ),
               ],
             ),

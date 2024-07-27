@@ -7,9 +7,11 @@ class SettingsPage extends StatefulWidget {
   @override
   State<SettingsPage> createState() => _SettingsPageState();
 }
-bool isSwitched1=false;
-bool isSwitched2=false;
-bool isSwitched3=false;
+
+bool isSwitched1 = false;
+bool isSwitched2 = false;
+bool isSwitched3 = false;
+
 class _SettingsPageState extends State<SettingsPage> {
   @override
   Widget build(BuildContext context) {
@@ -154,20 +156,18 @@ class _SettingsPageState extends State<SettingsPage> {
                   child: Switch(
                     value: isSwitched1,
                     activeColor: Colors.green,
-                   
-                            inactiveThumbColor: Colors.white,
-                            inactiveTrackColor: Colors.grey[750],
+                    inactiveThumbColor: Colors.white,
+                    inactiveTrackColor: Colors.grey[750],
                     onChanged: (value) {
-                     setState(() {
-                       isSwitched1=value;
-                     });
+                      setState(() {
+                        isSwitched1 = value;
+                      });
                     },
                   ),
                 )
               ],
             ),
-
-             Row(
+            Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 const Text(
@@ -179,38 +179,35 @@ class _SettingsPageState extends State<SettingsPage> {
                   child: Switch(
                     value: isSwitched2,
                     activeColor: Colors.green,
-                   
-                            inactiveThumbColor: Colors.white,
-                            inactiveTrackColor: Colors.grey[750],
+                    inactiveThumbColor: Colors.white,
+                    inactiveTrackColor: Colors.grey[750],
                     onChanged: (value) {
-                     setState(() {
-                       isSwitched2=value;
-                     });
+                      setState(() {
+                        isSwitched2 = value;
+                      });
                     },
                   ),
                 )
               ],
             ),
-
-             Row(
+            Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 const Text(
                   'Delivery status changes',
                   style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
                 ),
-                Transform.scale( 
+                Transform.scale(
                   scale: .7,
                   child: Switch(
                     value: isSwitched3,
                     activeColor: Colors.green,
-                   
-                            inactiveThumbColor: Colors.white,
-                            inactiveTrackColor: Colors.grey[750],
+                    inactiveThumbColor: Colors.white,
+                    inactiveTrackColor: Colors.grey[750],
                     onChanged: (value) {
-                     setState(() {
-                       isSwitched3=value;
-                     });
+                      setState(() {
+                        isSwitched3 = value;
+                      });
                     },
                   ),
                 )
@@ -222,4 +219,3 @@ class _SettingsPageState extends State<SettingsPage> {
     );
   }
 }
-

@@ -26,8 +26,7 @@ class ProfileNameAndPhotoCard extends StatelessWidget {
           children: [
             Text(
               'Jane Doe',
-              style:
-                  TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
+              style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
             ),
             Text(
               'janedoe@gmail.com',

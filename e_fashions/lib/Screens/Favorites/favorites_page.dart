@@ -86,7 +86,6 @@ class FavouriteCard extends StatelessWidget {
                     style: const TextStyle(
                       fontSize: 20,
                       fontWeight: FontWeight.bold,
-                     
                     ),
                     maxLines: 1,
                   ),

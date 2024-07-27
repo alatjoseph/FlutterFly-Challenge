@@ -7,13 +7,10 @@ class PromocodeListBottomSheet extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-
-      height: MediaQuery.of(context).size.height * 0.6, // Example height, adjust as needed
+    return SizedBox(
+      height: MediaQuery.of(context).size.height * 0.6,
       child: Column(
         children: [
-
-          
           Expanded(
             child: ListView.builder(
               itemCount: offersnameList.length,

@@ -19,9 +19,8 @@ class BagPage extends StatelessWidget {
         child: SingleChildScrollView(
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
-           
             children: [
-               const Row(
+              const Row(
                 mainAxisAlignment: MainAxisAlignment.end,
                 children: [
                   Icon(
@@ -70,7 +69,7 @@ class BagPage extends StatelessWidget {
               kheight10,
               const PromoCodeFormField(),
               kheight20,
-               const Row(
+              const Row(
                 children: [
                   Expanded(
                       child: Text(
@@ -90,7 +89,10 @@ class BagPage extends StatelessWidget {
                 ],
               ),
               kheight20,
-              ButtonWidget(content: 'CHECK OUT',destinationpage: const CheckoutPage(),),
+              ButtonWidget(
+                content: 'CHECK OUT',
+                destinationpage: const CheckoutPage(),
+              ),
             ],
           ),
         ),
@@ -98,5 +100,3 @@ class BagPage extends StatelessWidget {
     ));
   }
 }
-
-

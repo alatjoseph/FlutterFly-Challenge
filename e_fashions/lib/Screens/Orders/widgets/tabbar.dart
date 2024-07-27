@@ -12,34 +12,31 @@ class OrderTabbarWidget extends StatelessWidget {
           ),
           color: Colors.black),
       labelColor: Colors.white,
-        unselectedLabelColor: Colors.black,
+      unselectedLabelColor: Colors.black,
       unselectedLabelStyle: TextStyle(
           color: Colors.black,
           fontWeight: FontWeight.bold,
           backgroundColor: Colors.transparent),
       tabs: [
         SizedBox(
-          width: 170, 
+          width: 170,
           height: 20,
           child: Tab(
             text: 'Delivered',
-            
           ),
         ),
         SizedBox(
-          width: 170, 
+          width: 170,
           height: 40,
           child: Tab(
             text: 'Processing',
-            
           ),
         ),
         SizedBox(
-          width: 170, 
+          width: 170,
           height: 40,
           child: Tab(
             text: 'Cancelled',
-            
           ),
         ),
       ],

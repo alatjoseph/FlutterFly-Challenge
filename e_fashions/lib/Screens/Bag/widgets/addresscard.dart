@@ -22,10 +22,8 @@ class AddressCard extends StatelessWidget {
           child: Card(
             elevation: 5,
             child: Container(
-              decoration: BoxDecoration(
-                
-                borderRadius: BorderRadius.circular(10)
-              ), 
+              decoration:
+                  BoxDecoration(borderRadius: BorderRadius.circular(10)),
               height: 100,
               width: double.infinity,
               child: Padding(
@@ -36,11 +34,24 @@ class AddressCard extends StatelessWidget {
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
-                        const Text('Jane Doe',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 18),),
-                        TextButton(onPressed: (){}, child: const Text('Change',style: TextStyle(color: redclr,fontSize: 16),))
+                        const Text(
+                          'Jane Doe',
+                          style: TextStyle(
+                              fontWeight: FontWeight.bold, fontSize: 18),
+                        ),
+                        TextButton(
+                          onPressed: () {},
+                          child: const Text(
+                            'Change',
+                            style: TextStyle(color: redclr, fontSize: 16),
+                          ),
+                        )
                       ],
                     ),
-                     const Text('3 Bridge Court\nChino Hills,CA 91709,United states',style: TextStyle(fontSize: 15),),
+                    const Text(
+                      '3 Bridge Court\nChino Hills,CA 91709,United states',
+                      style: TextStyle(fontSize: 15),
+                    ),
                   ],
                 ),
               ),

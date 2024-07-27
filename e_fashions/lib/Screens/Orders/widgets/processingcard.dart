@@ -25,8 +25,8 @@ class ProcessingCard extends StatelessWidget {
                   children: [
                     Text(
                       'Order No : 1927345',
-                      style: TextStyle(
-                          fontWeight: FontWeight.bold, fontSize: 17),
+                      style:
+                          TextStyle(fontWeight: FontWeight.bold, fontSize: 17),
                     ),
                     Text(
                       '19-07-2024',
@@ -86,8 +86,8 @@ class ProcessingCard extends StatelessWidget {
                   children: [
                     ElevatedButton(
                       style: ElevatedButton.styleFrom(
-                          side: const BorderSide(
-                              color: Colors.black, width: 2)),
+                          side:
+                              const BorderSide(color: Colors.black, width: 2)),
                       onPressed: () {},
                       child: const Text(
                         'Details',
@@ -97,10 +97,13 @@ class ProcessingCard extends StatelessWidget {
                             color: Colors.black),
                       ),
                     ),
-                    const Text('Processing.....',style: TextStyle(
-                            fontWeight: FontWeight.bold,
-                            fontSize: 17,
-                            color: Colors.blue),)
+                    const Text(
+                      'Processing.....',
+                      style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontSize: 17,
+                          color: Colors.blue),
+                    )
                   ],
                 )
               ],

@@ -35,14 +35,11 @@ class ShoppingPage extends StatelessWidget {
         body: const TabBarView(
           children: [
             WomenTab(),
-            
             MensTab(),
-             KidsTab(),
-            
+            KidsTab(),
           ],
         ),
       ),
     );
   }
 }
-

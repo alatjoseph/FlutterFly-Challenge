@@ -8,7 +8,6 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -16,7 +15,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         // ignore: deprecated_member_use
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.white,background: Colors.white),
+        colorScheme: ColorScheme.fromSeed(
+            seedColor: Colors.white, background: Colors.white),
         primaryColor: Colors.white,
         scaffoldBackgroundColor: Colors.white,
         useMaterial3: true,
