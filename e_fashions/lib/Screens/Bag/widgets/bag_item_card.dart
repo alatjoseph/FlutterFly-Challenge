@@ -1,6 +1,7 @@
 import 'package:e_fashions/constants/const.dart';
 import 'package:flutter/material.dart';
 
+// ignore: must_be_immutable
 class BagItemCard extends StatelessWidget {
   String dressname;
   String image;

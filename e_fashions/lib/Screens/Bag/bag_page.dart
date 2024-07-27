@@ -5,6 +5,8 @@ import 'package:e_fashions/Screens/Bag/widgets/promocode_formfield.dart';
 import 'package:e_fashions/constants/const.dart';
 import 'package:flutter/material.dart';
 
+import '../../constants/list.dart';
+
 class BagPage extends StatelessWidget {
   const BagPage({super.key});
 

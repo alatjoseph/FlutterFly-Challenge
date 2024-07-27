@@ -3,6 +3,7 @@ import 'package:e_fashions/Screens/HomePage/widget/home_idle_banner.dart';
 import 'package:e_fashions/Screens/HomePage/widget/imageListWidget.dart';
 import 'package:e_fashions/Screens/HomePage/widget/middle_banner.dart';
 import 'package:e_fashions/constants/const.dart';
+import 'package:e_fashions/constants/list.dart';
 import 'package:flutter/material.dart';
 
 class Homepage extends StatelessWidget {
@@ -40,8 +41,9 @@ class Homepage extends StatelessWidget {
                   names: NewDressNames,
                   types: dressTypes,
                   color: Colors.black,
-                  offertext: [],
+                  offertext: const [],
                 ),
+                kheight20,
                 const HomeMiddleBanner(),
                 kheight10,
                 const HomeTitleCard(

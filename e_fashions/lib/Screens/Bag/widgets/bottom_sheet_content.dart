@@ -18,16 +18,16 @@ class BottomSheetContent extends StatelessWidget {
           child: Padding(
             padding: const EdgeInsets.only(top: 18, right: 15, left: 15),
             child: ListView(
-              children: [
-                const BottomSheetFormField(),
+              children: const [
+                BottomSheetFormField(),
                 kheight20,
-                const Text(
+                Text(
                   'Your Promo Codes',
                   style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
                 ),
 
                
-                Promocodelist()
+                PromocodeListBottomSheet()
               ],
             ),
           ),

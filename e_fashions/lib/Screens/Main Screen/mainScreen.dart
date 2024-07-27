@@ -7,7 +7,7 @@ import 'package:e_fashions/screens/HomePage/homepage.dart';
 import 'package:flutter/material.dart';
 
 class MainScreen extends StatelessWidget {
-  const MainScreen({super.key});
+   const MainScreen({super.key});
 
   final pages = const [
     Homepage(),
@@ -16,6 +16,7 @@ class MainScreen extends StatelessWidget {
     FavoritesPage(),
     ProfilePage(),
   ];
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
         body: ValueListenableBuilder(

@@ -2,6 +2,7 @@ import 'package:e_fashions/Screens/HomePage/widget/home_card.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
+// ignore: must_be_immutable
 class HomeImageCardList extends StatelessWidget {
   List image;
   List names;
